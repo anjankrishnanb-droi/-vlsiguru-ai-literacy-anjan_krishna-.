@@ -19,6 +19,7 @@
 
 ## Q2 - [Is Everything That Looks Intelligent Actually AI?]
 ### A - Answer
+  
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

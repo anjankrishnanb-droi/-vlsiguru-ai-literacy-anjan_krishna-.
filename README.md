@@ -14,3 +14,10 @@ I want to build a basic understanding of AI and learn how to use AI effectively 
 - Use AI tools to make my Design Verification work easier.
 - Learn to use AI for debugging and testbench development.
 - Develop skills to pursue a Master's degree or further studies in AI in the future.
+
+# Week 01 - The AI Landscape
+## Learning Objectives
+- [ ] Distinguish AI, ML, DL, GenAI, and agents
+- [ ] Distinguish AI from ordinary automation
+- [ ] Explain the intuitive idea of LLM generation
+- [ ] Recognize AI limitations and the need for verification

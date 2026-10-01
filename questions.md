@@ -19,13 +19,22 @@
 
 ## Q2 - [Is Everything That Looks Intelligent Actually AI?]
 ### A - Answer
-  
+  - AI performs well on tasks it has learned but it can struggles when new situations are introduced. 
+  - AI doesnot have human like feelings ,self awareness or personal experiences . It generates responses based on patterns and information.
+  - AI can make mistakes when it encounters information or situations that are different from what it learned during training.
+  - AI may not always understand wht is right or wrong in complex situations. It's answers can reflect the biases present in its training data.
+  - Ai relies on data to learn patterns . If the data is insufficient , incorrect or biased the results may also be incorrect or biased.
 ### E - Evidence
+  -https://aiagentmemory.org/articles/is-ai-really-that-intelligent/
 ### V - Verification
+Claude 
 ### R - Reflection
-
+ The AI seems around us,it somewhat intelligent but not all fully intelligent. It requires human intervension when something goes wrong.
+ 
 ## Q3 - [What Happens When You Ask an LLM a Question?]
 ### A - Answer
+  - Step1
+        - 
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

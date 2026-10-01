@@ -50,7 +50,12 @@ Google search
 
 ## Q4 - [Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?]
 ### A - Answer
-    AI Halluciantio
+  AI halucconations occur when AI models generate false, misleading answers but they present it as     factual.
+### Haluciantion test
+Question : Give me the information of Quantum computing book written by  Anjan krishna
+ ### Chatgpt Experiment
+  ##### Answer Anjan, I searched online for a book titled Quantum Computing written by Anjan Krishna, but I couldn't find a verifiable book listing matching that author and title.
+The search returned other material about quantum computing, but nothing that confirmed a book by that exact name. I also found an online profile for Anjan Krishna associated with VLSI and electronics engineering, but it does not establish that he has published a quantum computing book.
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

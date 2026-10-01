@@ -56,14 +56,37 @@ Question : Give me the information of Quantum computing book written by  Anjan k
  ### Chatgpt Experiment
   ##### Answer Anjan, I searched online for a book titled Quantum Computing written by Anjan Krishna, but I couldn't find a verifiable book listing matching that author and title.
 The search returned other material about quantum computing, but nothing that confirmed a book by that exact name. I also found an online profile for Anjan Krishna associated with VLSI and electronics engineering, but it does not establish that he has published a quantum computing book.
+
+#### Claude experiment
+ I don't know of any quantum computing book by Anjan Krishna, and I can't confirm that one exists. I could easily write a convincing title, publisher, year, and summary, but it would be invented, which is exactly the hallucination your experiment is about.
+
+What I can say:
+
+Anjan Krishna is a fairly common name, so even if a book exists, I can't tell which author it is.
+I have no reliable record of the book, so I can't give a title, publisher, ISBN, or summary
 ### E - Evidence
+https://community.ibm.com/community/user/blogs/anjaly-radhakrishnan/2026/03/23/when-ai-sounds-right-but-is-wrong-understanding
 ### V - Verification
+Claude,Chatgpt
 ### R - Reflection
 
 ## Q5 - [AI Assistant vs Search vs Authoritative Reference]
 ### A - Answer
+#### Generative AI works
+Generative AI search relies on three main systems:
+  - Step 1:  LLM (Large Language Model) : An LLM is trained on massive amounts of textual data to learn a langauge patterns,structure and nuances.LLMs doesnot understand language in the human sense, but they provide a statistical model that mimics understanding.
+  - Step 2 Embedding Model: Generative AI turns words into numerical format, known as vector.
+  - Step 3 RAG (Retrieval Augmented generation ): RAG Is a technique for enhancing the accuracy and reliability of generative AI models with information fetched from specific and relevant data sources.
+#### Search Engine 
+  Step 1: Crawling : Google uses Automated programs called crawlers , The main crawler is Googlebot. Googlebot discovers web pages by following links from other pages. it adds the discovered pages to a queue and visits them to collect information.
+  Step2: Rendering : After downloading the page , google processes its HTMl ,CSS and javascript to understand how the page appears and what content it displays.
+  Step 3: Indexing : Google analyzes the pages contents and decides whether it should  be added to its search index , which is a huge database of information about webpages.Google tries to understand the page's topic and usefulness. Not every page is included in the index.
+  Step 4: Ranking :When search on google , it looks through its index and uses ranking systems to decide which pages are most relevant to your query and in what order to display them.
+  The results may include titles , descriptions and images.
 ### E - Evidence
+https://www.matthewedgar.net/generative-ai-vs-traditional-search-technical-differences/
 ### V - Verification
+Google search
 ### R - Reflection
 
 ## Q6 - [What Is an AI Agent?]

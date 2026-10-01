@@ -14,7 +14,7 @@
 - https://iwtlp.com/blog/ai-ml-dl-genai-llms-rag-agentic-ai-explained
 - https://towardsdatascience.com/artificial-intelligence-machine-learning-deep-learning-and-generative-ai-clearly-explained/
 ### V - Verification
- Claude
+Google search
 ### R - Reflection
 
 ## Q2 - [Is Everything That Looks Intelligent Actually AI?]
@@ -27,15 +27,69 @@
 ### E - Evidence
   -https://aiagentmemory.org/articles/is-ai-really-that-intelligent/
 ### V - Verification
-Claude 
+Google search
 ### R - Reflection
  The AI seems around us,it somewhat intelligent but not all fully intelligent. It requires human intervension when something goes wrong.
  
 ## Q3 - [What Happens When You Ask an LLM a Question?]
 ### A - Answer
-  - Step1
-        - 
+  - Step 1 : Tokenization
+     First of all the bigger sentence that we wrote is cut into small chunks called tokens.
+  - Step 2 : Embeddings
+    The tokens are converted in to numbers. The tokens that are close to each other get clustered together based on semantical meaning.
+    -Step 3 : Attention
+        LLM mechanism that allows the model to focus on the most relevant words in a sentence when processong a specific word.
+    -Step 4 : Generation (Guessing)
+     The model predicts the next token as a probability over all possible tokens, picks one, adds it to the text, and repeats. This sequential guessing continues until the response is complete.
+        
+### E - Evidence
+https://medium.com/@kakadaaryan10/what-happens-when-you-ask-an-llm-a-question-explained-like-you-are-15-b4bc13b1f2ff
+### V - Verification
+Google search
+### R - Reflection
+
+## Q4 - [Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?]
+### A - Answer
+    AI Halluciantio
 ### E - Evidence
 ### V - Verification
 ### R - Reflection
-Repeat the same structure for Q2-Q10.
+
+## Q5 - [AI Assistant vs Search vs Authoritative Reference]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+## Q6 - [What Is an AI Agent?]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+## Q7 - [Where Should Humans Still Make the Decision?]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+## Q8 - [Find AI Around You]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+## Q9 - [Prediction, Classification, and Generation]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+## Q10 - [Design Your Personal AI Verification Protocol]
+### A - Answer
+### E - Evidence
+### V - Verification
+### R - Reflection
+
+
+

@@ -139,20 +139,41 @@ AI can help with reading documents, summarizing information, generating text, an
 ## My Rule for Responsible AI-Assisted Work
 
 I will use AI to support my work, not replace my judgment. Before acting on important AI-generated information, I will verify it using reliable evidence and obtain approval from the responsible person whenever necessary.
-
-
-## My Rule for Responsible AI-Assisted Work
-
-**My rule:** [Write one simple sentence explaining when and why humans should verify AI outputs before acting on them.]
-| | | | | | |
 ### E - Evidence
+https://www.toolsgroup.com/blog/why-human-decision-making-matters-in-the-ai-age/
 ### V - Verification
+Google search
 ### R - Reflection
-
+Human + AI Smarter ,faster,Better decisions 
 ## Q8 - [Find AI Around You]
 ### A - Answer
+
+# AI in Everyday Life
+
+| No. | System / Application | AI/ML Involved? | Task Type | Evidence / Source | Conclusion |
+|---|---|---|---|---|---|
+| 1 | YouTube, TikTok and Instagram recommendations | Yes | Recommendation and prediction | [YouTube recommendations](https://support.google.com/youtube/answer/16089387) | Uses user activity and other signals to recommend relevant videos. A rule-based system could recommend popular videos by category but would provide less personalized results. |
+| 2 | Google Photos – Face Groups | Yes | Facial recognition and classification | [Google Photos Help](https://support.google.com/photos/answer/6128838) | Uses face models and facial similarity to group photos that may contain the same person. It can sometimes group the wrong faces. |
+| 3 | Google Lens, Circle to Search and OCR | Yes | Object recognition and text recognition | [Google Lens](https://lens.google/) | Uses AI-based visual recognition to identify objects and recognize text in images. Results may be inaccurate when images are blurry or unclear. |
+| 4 | Gmail spam filter | Yes | Classification | [Google Workspace](https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters) | Uses machine learning to identify spam emails. Legitimate emails may occasionally be marked as spam. |
+| 5 | Netflix recommendations | Yes | Recommendation and ranking | [Netflix Help](https://help.netflix.com/en/node/100639) | Uses viewing activity and other information to personalize movie and TV recommendations. Suggestions may not always match the user's current interests. |
+
+## Rule-Based Alternative
+
+A simple rule-based recommendation system could recommend football videos whenever a user selects the football category. It could also recommend popular videos based on fixed rules.
+
+This approach can work without machine learning, but it cannot learn complex user preferences as effectively as a personalized machine-learning system.
+
+## Conclusion
+
+AI and machine learning are used in many everyday applications for recognition, classification, prediction and recommendation. However, AI-generated results can be incorrect, so important results should be verified.
+
+**Responsible AI rule:** Do not assume a product uses AI just because it appears intelligent. Look for reliable public evidence, and verify its output when accuracy matters.
+
 ### E - Evidence
+https://beebom.com/examples-of-artificial-intelligence/
 ### V - Verification
+google search
 ### R - Reflection
 
 ## Q9 - [Prediction, Classification, and Generation]

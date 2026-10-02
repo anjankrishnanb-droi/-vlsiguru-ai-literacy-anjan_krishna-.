@@ -224,14 +224,156 @@ Prediction estimates a value or likely outcome, classification assigns an input 
 Next-token prediction is a fundamental training and generation mechanism for many modern language models. By predicting tokens one after another, a model can produce text for many different tasks, including writing, summarization, coding, and question answering.
 
 ### E - Evidence
-### V - Verification
-### R - Reflection
+https://www.backblaze.com/blog/ai-101-classification-vs-predictive-vs-generative-ai/
 
 ## Q10 - [Design Your Personal AI Verification Protocol]
 ### A - Answer
-### E - Evidence
-### V - Verification
-### R - Reflection
+
+# My Personal AI Verification Protocol
+
+## 1. Introduction
+
+If I use an AI assistant for engineering work, I will treat its output as a suggestion rather than automatically accepting it as correct. AI can help me understand technical concepts, generate code, summarize documents, and solve problems, but it can also make mistakes or produce misleading information.
+
+My goal is to verify AI-generated results before using them in real work.
+
+## 2. My Seven-Step Verification Protocol
+
+### Step 1: Define the Problem Clearly
+
+**What I will do:**
+- Explain the problem clearly to the AI assistant.
+- Define the expected result, requirements, constraints, and purpose.
+- Identify what a successful answer should contain.
+
+**Why this step matters:**
+
+If the problem is unclear, the AI may answer a different question from the one I intended.
+
+**Failure this step catches:** Misunderstood requirements, incomplete instructions, and irrelevant answers.
+
+### Step 2: Inspect the Assumptions
+
+**What I will do:**
+- Identify the assumptions made by the AI.
+- Check whether the input information is complete and correct.
+- Ask the AI to explain any unclear assumptions.
+
+**Why this step matters:**
+
+AI may fill gaps in the available information with assumptions that are not true for my situation.
+
+**Failure this step catches:** Incorrect assumptions, missing constraints, and conclusions based on incomplete information.
+
+### Step 3: Check the Evidence and Sources
+
+**What I will do:**
+- Check whether the AI provides reliable sources for factual claims.
+- Open the original documents, technical specifications, or official websites.
+- Verify important facts, calculations, and references independently.
+
+**Why this step matters:**
+
+AI can produce incorrect information or invent references that appear convincing.
+
+**Failure this step catches:** False claims, outdated information, fabricated sources, and unsupported conclusions.
+
+### Step 4: Review the Logic and Reasoning
+
+**What I will do:**
+- Examine how the AI reached its conclusion.
+- Check whether the explanation is logically consistent.
+- Compare the proposed solution with my own understanding or another reliable method.
+
+**Why this step matters:**
+
+An answer may look convincing but still contain logical errors or contradictions.
+
+**Failure this step catches:** Invalid reasoning, contradictions, and solutions that do not follow from the evidence.
+
+### Step 5: Test the Result Independently
+
+**What I will do:**
+- Test the output using an appropriate method.
+- For code, compile and run it with relevant test cases.
+- For calculations, check the result independently.
+- For summaries, compare important statements with the original document.
+
+**Why this step matters:**
+
+An explanation alone does not prove that the result works correctly.
+
+**Failure this step catches:** Software bugs, incorrect calculations, unexpected behavior, and missing information.
+
+### Step 6: Evaluate Risks and Human Responsibility
+
+**What I will do:**
+- Consider the consequences if the AI output is wrong.
+- Check whether the result could create safety, security, privacy, or financial risks.
+- Request review from a qualified person when the consequences are significant.
+
+**Why this step matters:**
+
+The level of verification should depend on the possible impact of a mistake. Important engineering decisions should not rely only on AI-generated answers.
+
+**Failure this step catches:** Unsafe recommendations, security vulnerabilities, privacy problems, and decisions made without appropriate review.
+
+### Step 7: Decide: Accept, Revise, or Reject
+
+**What I will do:**
+- **Accept:** Use the output if it meets the requirements and passes the necessary checks.
+- **Revise:** Correct or improve the output if some parts are useful but errors or gaps remain. Test it again after revision.
+- **Reject:** Do not use the output if it is unreliable, unsupported, unsafe, or fails important tests.
+- Record important verification results so I can review them later.
+
+**Why this step matters:**
+
+AI-generated output should be used only when there is sufficient evidence that it is suitable for the intended purpose.
+
+**Failure this step catches:** Blind trust in AI, acceptance of unresolved errors, and use of outputs that have not met the required standards.
+
+## 3. Worked Example: Planning a Weekend Trip
+
+### Situation
+
+I ask an AI assistant to create a one-day itinerary for visiting Salzburg, Austria, including public transportation, attractions, opening hours, and an estimated budget.
+
+### Applying My Seven-Step Protocol
+
+| Step | How I Apply It |
+|---|---|
+| 1. Define the problem | Specify the travel date, starting location, budget, available time, and preferred attractions. |
+| 2. Inspect assumptions | Check whether the AI has assumed that I am travelling by train, starting early, or visiting attractions that require tickets. |
+| 3. Check evidence and sources | Verify train times using the official transport website and attraction opening hours using official attraction websites. |
+| 4. Review the logic | Check whether the travel schedule allows enough time to visit each attraction and move between locations. |
+| 5. Test the result | Check actual journey times, ticket prices, and whether the itinerary is possible within one day. |
+| 6. Evaluate risks | Consider the possibility of delays, closed attractions, unexpected expenses, or missing the return train. |
+| 7. Decide | Accept the itinerary if the details are verified and practical, revise it if timings or costs are incorrect, or reject it if it cannot be completed reliably. |
+
+### Example Outcome
+
+If the AI recommends a museum that is closed on my travel date, I will revise the itinerary using verified opening hours and choose another attraction.
+
+This demonstrates why AI-generated plans should be checked against current, reliable information before acting on them.
+
+## 4. My Responsible AI Rule
+
+**I will define the problem, inspect assumptions, verify evidence, review the logic, test the result, assess the risks, and then decide whether to accept, revise, or reject the AI output.**
+
+I will remain responsible for decisions made using AI assistance.
+
+## 5. Improving My Protocol After 16 Weeks
+
+At the end of this 16-week program, I will review this protocol using what I have learned about AI, machine learning, generative AI, and AI-assisted engineering.
+
+I will consider:
+- Which verification steps were most useful.
+- What types of AI errors I encountered.
+- Whether my testing methods were sufficient.
+- How I can improve source checking and risk assessment.
+- How to apply the protocol to SystemVerilog, testbench development, debugging, and Design Verification workflows.
+
+
 
 
 

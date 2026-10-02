@@ -178,6 +178,51 @@ google search
 
 ## Q9 - [Prediction, Classification, and Generation]
 ### A - Answer
+
+# Prediction, Classification, and Generation
+
+## 1. Classification of Examples
+
+| No. | Example | Task Type | Reason |
+|---|---|---|---|
+| A | Predicting house prices | Prediction | The model estimates a continuous numerical value (the expected price of a house) using features such as location, size, and number of rooms. |
+| B | Detecting whether an image contains a cat | Classification | The model assigns the image to a category, such as "cat present" or "cat absent." |
+| C | Writing an email from a short instruction | Generation | The model creates new text based on the user's instruction. |
+| D | Predicting whether a customer will cancel a subscription | Prediction | The model estimates the likelihood of a future event: whether a customer will cancel their subscription. |
+| E | Summarizing a research paper | Generation | The model produces a shorter version of the original paper while preserving its main ideas. |
+| F | Identifying whether a transaction is fraudulent | Classification | The model assigns the transaction to a category, such as "fraudulent" or "legitimate." |
+| G | Generating an image from a text description | Generation | The model creates a new image based on the text prompt. |
+| H | Predicting the next word/token in a sentence | Prediction | The model estimates which token is likely to come next based on the preceding context. |
+
+## 2. Why Is Next-Token Prediction Fundamental to Modern Language Models?
+
+Modern language models are trained to predict the next token based on the tokens that came before it. A token may be a complete word, part of a word, punctuation, or another text unit.
+
+For example, given the input:
+
+"The sky is"
+
+The model may assign a high probability to the next token "blue."
+
+The model generates text by repeatedly predicting and selecting the next token, then using the expanded text to predict another token. This process continues until the response is complete.
+
+This basic ability supports many applications:
+
+- **Writing:** Predicting successive tokens produces sentences and paragraphs.
+- **Summarization:** Predicting tokens allows the model to create a shorter version of a document.
+- **Coding:** Predicting tokens allows the model to generate programming statements and code.
+- **Question answering:** Predicting tokens allows the model to construct an answer using the question and available context.
+
+Although these applications look different, they can use the same underlying next-token prediction process.
+
+Next-token prediction does not guarantee that the output is correct. A language model can produce fluent text that contains factual errors, so important answers and generated code still need verification.
+
+## 3. Conclusion
+
+Prediction estimates a value or likely outcome, classification assigns an input to a category, and generation creates new content.
+
+Next-token prediction is a fundamental training and generation mechanism for many modern language models. By predicting tokens one after another, a model can produce text for many different tasks, including writing, summarization, coding, and question answering.
+
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

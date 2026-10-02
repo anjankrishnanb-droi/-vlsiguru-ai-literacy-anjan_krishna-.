@@ -97,7 +97,8 @@ AI agent uses Artificial intelligence and take actions towards a goal. AI Agent
 - Plans / decides : selects an appropriate action based on its goal.
 - Acts : executes the action using tools or systems
 - Evaluates: Observes the resul and adjusts its next action when necessary.
-- Escalates : asks for human intervention when  it is unsafe and effectively complete the task. 
+- Escalates : asks for human intervention when  it is unsafe and effectively complete the task.
+[AI Agent Architecture](images/ai-agent-diagram.webp)
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

@@ -9,6 +9,8 @@
 -  Generative AI : Its creates new contents based on the patterns learned from training data.
   ex:chatgpt can  write an email, explain technical concept.
 -  AI agent : It is sytem that uses an AI Model to work towards a goal by deciding what to do.         Ex:chatbot repsonds to prompts.
+ <img width="1211" height="652" alt="image" src="https://github.com/user-attachments/assets/a8a9dd12-5dd0-4ae1-a068-4948160a2f2c" />
+
     
 ### E - Evidence
 - https://iwtlp.com/blog/ai-ml-dl-genai-llms-rag-agentic-ai-explained
@@ -102,7 +104,9 @@ AI agent uses Artificial intelligence and take actions towards a goal. AI Agent
 
 
 ### E - Evidence
+https://www.geeksforgeeks.org/artificial-intelligence/agents-artificial-intelligence/
 ### V - Verification
+Google search
 ### R - Reflection
 
 ## Q7 - [Where Should Humans Still Make the Decision?]

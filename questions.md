@@ -111,6 +111,40 @@ Google search
 
 ## Q7 - [Where Should Humans Still Make the Decision?]
 ### A - Answer
+# Where Should Humans Still Make the Decision?
+
+## Why Does This Matter?
+
+AI can help with reading documents, summarizing information, generating text, and suggesting actions. However, humans must remain responsible for checking important outputs before acting on them.
+
+## Five Situations Requiring Human Verification
+
+
+# Where Should Humans Still Make the Decision?
+
+## Why Does This Matter?
+
+AI can help with reading documents, summarizing information, generating text, and suggesting actions. However, humans must remain responsible for checking important outputs before acting on them.
+
+## Five Situations Requiring Human Verification
+
+| No. | Situation | Possible Failure if AI Is Not Verified | Required Verification / Evidence | Who or What Approves the Result? |
+|---|---|---|---|---|
+| 1 | AI generates SystemVerilog code for a testbench. | The code may contain syntax errors, incorrect logic, or fail to detect design bugs. | Compile the code, run simulations, check test results, and review functional coverage. | Design Verification Engineer |
+| 2 | AI summarizes a technical document or specification. | It may omit important requirements or misunderstand a technical detail. | Compare the summary against the original specification and verify key requirements. | Engineer responsible for the specification |
+| 3 | AI recommends a solution to a hardware safety issue. | An incorrect recommendation could cause hardware malfunction or unsafe behavior. | Check the relevant safety requirements, technical standards, simulation results, and test evidence. | Responsible safety engineer or authorized reviewer |
+| 4 | AI analyzes financial information and recommends an investment. | It may use outdated information, make incorrect assumptions, or overlook financial risks. | Check current financial data, reliable sources, fees, risks, and personal financial circumstances. | Individual investor, with advice from a qualified financial professional when needed |
+| 5 | AI drafts an important professional email or report. | It may include false information, disclose confidential data, or use inappropriate wording. | Verify names, dates, facts, recipient details, confidentiality, and the intended message. | The person sending or submitting the email or report |
+
+## My Rule for Responsible AI-Assisted Work
+
+I will use AI to support my work, not replace my judgment. Before acting on important AI-generated information, I will verify it using reliable evidence and obtain approval from the responsible person whenever necessary.
+
+
+## My Rule for Responsible AI-Assisted Work
+
+**My rule:** [Write one simple sentence explaining when and why humans should verify AI outputs before acting on them.]
+| | | | | | |
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

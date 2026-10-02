@@ -43,3 +43,4 @@ I want to build a basic understanding of AI and learn how to use AI effectively 
 ### What I understood
 ### What still confuses me
 ### One thing I will verify differently next time
+![AI Agent Architecture](images/ai-agent-diagram.webp)

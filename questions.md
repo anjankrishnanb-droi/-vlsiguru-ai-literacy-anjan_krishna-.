@@ -50,7 +50,7 @@ Google search
 
 ## Q4 - [Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?]
 ### A - Answer
-  AI halucconations occur when AI models generate false, misleading answers but they present it as     factual.
+  AI haluccinations occur when AI models generate false, misleading answers but they present it as     factual.
 ### Haluciantion test
 Question : Give me the information of Quantum computing book written by  Anjan krishna
  ### Chatgpt Experiment
@@ -69,7 +69,7 @@ https://community.ibm.com/community/user/blogs/anjaly-radhakrishnan/2026/03/23/w
 ### V - Verification
 Claude,Chatgpt
 ### R - Reflection
-
+ AI can use confident wording for both well-supported and uncertain claims . which seems to be convincing for us.
 ## Q5 - [AI Assistant vs Search vs Authoritative Reference]
 ### A - Answer
 #### Generative AI works
@@ -91,6 +91,13 @@ Google search
 
 ## Q6 - [What Is an AI Agent?]
 ### A - Answer
+AI agent uses Artificial intelligence and take actions towards a goal. AI Agent 
+- Perceives : Collects and analyzes inormation from its environment
+- Reasons : interprets the information and determines what needs to be done.
+- Plans / decides : selects an appropriate action based on its goal.
+- Acts : executes the action using tools or systems
+- Evaluates: Observes the resul and adjusts its next action when necessary.
+- Escalates : asks for human intervention when  it is unsafe and effectively complete the task. 
 ### E - Evidence
 ### V - Verification
 ### R - Reflection

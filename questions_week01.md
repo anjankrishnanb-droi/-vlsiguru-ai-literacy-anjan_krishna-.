@@ -43,4 +43,5 @@ AI and machine learning are already part of many technologies that I use every d
 ##
 AI:- It is a part of computer science that tht build systems to mimic human intelligence like reasoning , thinking etc.
 ML :-It is a subset of AI which which learns patterns from raw data to make decisions or predictions. Ex :Spam detection, fraud detection 
-Deep Learning :- It is  subset of ML which uses neural networks 
+Deep Learning :- It is  subset of ML which uses neural networks with multiple layers to learn complex patterns from data. ex: Face recognition
+Generative AI :

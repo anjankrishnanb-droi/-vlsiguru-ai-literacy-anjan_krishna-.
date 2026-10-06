@@ -37,11 +37,8 @@ These signals are used to learn user preferences and predict which videos a user
 
 AI and machine learning are already part of many technologies that I use every day. They are commonly used to recognise patterns, make predictions, and provide personalised recommendations. YouTube is a clear example because its recommendation system uses machine-learning models to predict what content users may be interested in.
 
-## Key Idea
-
-A traditional program can follow predefined rules:
-
-```text
-Input → Fixed Rules → Output
 
 # Mission 2-AI,ML,GenAI
+
+##
+AI:- It is a part of computer science that tht build systems to mimic human intelligence like reasoning , thinking etc.

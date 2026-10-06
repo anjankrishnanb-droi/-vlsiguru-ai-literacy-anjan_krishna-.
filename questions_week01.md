@@ -48,3 +48,11 @@ AI and machine learning are already part of many technologies that I use every d
 <img width="1211" height="652" alt="image" src="https://github.com/user-attachments/assets/eeee7631-55cb-4b40-9044-19e1fa02a773" />
 
 ## ASK AI Agent(chatGPT) assistant to explain the diagram
+
+AI: Make machines intelligent.
+
+ML: Make machines learn from data.
+
+Deep Learning: Use deep neural networks to learn from data.
+
+Generative AI: Use learned models to generate new content.

@@ -42,3 +42,4 @@ AI and machine learning are already part of many technologies that I use every d
 
 ##
 AI:- It is a part of computer science that tht build systems to mimic human intelligence like reasoning , thinking etc.
+ML :-It is a subset of AI 

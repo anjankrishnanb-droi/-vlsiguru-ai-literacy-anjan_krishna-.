@@ -58,8 +58,6 @@ Deep Learning: Use deep neural networks to learn from data.
 Generative AI: Use learned models to generate new content.
 
 # Mission 3- Is it really AI?
-# Mission 3 — Is it really AI?
-
 ## Classification
 
 | System | Classification | Reason |

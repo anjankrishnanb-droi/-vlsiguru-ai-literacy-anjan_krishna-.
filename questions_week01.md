@@ -108,4 +108,5 @@ Given thousands of temperature and sensor examples,
 learn a pattern that predicts whether a situation is dangerous.
 
 # 4. Make AI explain itself,then test it
- ## AI (chatgpt) answer 1: An LLM takes your prompt, converts it into tokens and numerical representations, processes their relationships using a Transformer, and repeatedly predicts the most appropriate next token until it forms a complete response
+  ## AI (chatgpt) answer 1: 
+ An LLM takes your prompt, converts it into tokens and numerical representations, processes their relationships using a Transformer, and repeatedly predicts the most appropriate next token until it forms a complete response

@@ -138,6 +138,235 @@ AI Can make mistakes, but verification of answers are also important.
 
  ### RAG :
  RAG allows an LLM to answer questions using information retrieved from external documents or databases.
-### Tool-using assistant : A tool-using assistant can call external software or services to perform specific operations instead of only generating text.
-### AI agent : An AI agent goes beyond answering a single question. It can work toward a goal by planning steps, using tools, observing results, and adjusting its actions.
+### Tool-using assistant :
+A tool-using assistant can call external software or services to perform specific operations instead of only generating text.
+### AI agent :
+An AI agent goes beyond answering a single question. It can work toward a goal by planning steps, using tools, observing results, and adjusting its actions.
 <img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/17b60453-2f05-4612-808d-9ac332118cf6" />
+
+# Mission 7 : What actually runs AI?
+1. What is a CPU and what is it good at?
+
+A CPU (Central Processing Unit) is the main general-purpose processor of a computer. It executes program instructions and controls many operations of the system.
+
+What is it good at?
+
+Executing sequential instructions.
+
+Making decisions using conditions such as if-else.
+
+Handling operating system tasks and application logic.
+
+Managing different types of workloads.
+
+Example: A CPU runs the operating system, opens applications, and controls the overall execution of a program.
+
+2. What is a GPU and why is it useful for AI workloads?
+
+A GPU (Graphics Processing Unit) is a processor designed to perform many calculations in parallel.
+
+Unlike a CPU, which typically has a smaller number of powerful general-purpose cores, a GPU contains many processing units that can perform large numbers of similar operations simultaneously.
+
+Why is it useful for AI?
+
+AI models perform many matrix and vector calculations.
+
+GPUs can execute many of these calculations in parallel.
+
+They can significantly speed up neural network training and inference.
+
+Example: A GPU can multiply large matrices used in neural network calculations much faster than a CPU in many suitable workloads.
+
+3. What is an NPU / AI accelerator and why do modern systems use specialised hardware?
+
+An NPU (Neural Processing Unit) is a processor designed specifically to accelerate neural network operations.
+
+An AI accelerator is a broader term for specialised hardware designed to speed up AI calculations. An NPU is one type of AI accelerator.
+
+Why do modern systems use specialised hardware?
+
+To execute AI operations efficiently.
+
+To reduce power consumption for suitable workloads.
+
+To improve performance for neural network calculations.
+
+To run AI features locally on phones, laptops, and other devices.
+
+Example: A smartphone NPU can accelerate on-device features such as image enhancement, speech recognition, and background blur during video calls.
+
+4. What does parallel computation mean?
+
+Parallel computation means performing multiple calculations at the same time.
+
+Consider adding four pairs of numbers:
+
+A = 2 + 3
+B = 4 + 5
+C = 6 + 7
+D = 8 + 9
+
+A sequential approach might calculate them one after another.
+
+A parallel approach can calculate all four pairs simultaneously, provided sufficient processing units are available.
+
+Why is it useful for AI?
+
+Neural networks perform large numbers of mathematical operations. Many of these operations can be performed in parallel, reducing computation time.
+
+5. Why does AI depend so heavily on compute and memory?
+
+AI models require both computation and memory.
+
+Compute
+
+Compute refers to the ability to perform mathematical operations.
+
+AI models use operations such as matrix multiplication to process input data and update model parameters.
+
+Memory
+
+Memory stores:
+
+Model parameters (weights).
+
+Input data and intermediate results.
+
+Activations and gradients during training.
+
+The context and key-value cache used by many LLMs during inference.
+
+If the model is too large for available memory, it may not fit on the device or may require slower data transfers.
+
+Example: A large language model needs enough memory to hold its weights and enough computational power to generate responses efficiently.
+
+Therefore, both computational performance and memory capacity and bandwidth are important for AI.
+
+6. What is the difference between training and inference from a hardware/computation point of view?
+
+Feature
+
+Training
+
+Inference
+
+Purpose
+
+Teach the model by adjusting its weights.
+
+Use the trained model to make predictions.
+
+Computation
+
+Forward pass, loss calculation, backpropagation, and weight updates.
+
+Forward pass to generate predictions or outputs.
+
+Memory
+
+Stores weights, activations, gradients, and often optimizer state.
+
+Stores weights, inputs, intermediate results, and any required cache.
+
+Hardware demand
+
+Often very high compute and memory requirements.
+
+Depends on model size, speed requirements, and workload.
+
+Example
+
+Training a model to recognise cats and dogs.
+
+Using the trained model to classify a new image.
+
+In simple terms:
+
+Training: The model learns from data.
+
+Inference: The model uses what it has learned.
+
+Training often requires more computation and memory per model update. However, large-scale inference can also require substantial hardware, especially when serving many users or generating long responses.
+
+7. Draw a simple picture showing the AI hardware workflow
+
+┌────────────────────────┐
+│     AI Application     │
+│  Chatbot / Image App   │
+└────────────┬───────────┘
+             │
+             ▼
+┌────────────────────────┐
+│        AI Model        │
+│  Neural Network / LLM  │
+└────────────┬───────────┘
+             │
+             ▼
+┌────────────────────────┐
+│   Software / Framework │
+│ PyTorch / TensorFlow   │
+│ Runtime / Drivers      │
+└────────────┬───────────┘
+             │
+             ▼
+┌────────────────────────┐
+│       Compute Unit     │
+│                        │
+│  CPU / GPU / NPU       │
+└────────────┬───────────┘
+             │
+             ▼
+┌────────────────────────┐
+│         Memory         │
+│ Weights / Data / Cache │
+└────────────────────────┘
+
+Explanation
+
+AI Application: Receives the user's input and manages the interaction.
+
+AI Model: Defines the learned neural network used to produce an output.
+
+Software / Framework: Prepares and schedules model operations for the available hardware.
+
+CPU / GPU / NPU: Executes the required computations.
+
+Memory: Holds model parameters, input data, and intermediate results.
+
+Note: This is a simplified conceptual diagram. In a real system, data moves repeatedly between compute units and different levels of memory. The CPU may also coordinate the GPU or NPU, and the framework may select different processors for different operations.
+
+8. Pick one real AI workload and explain which type of compute hardware would be useful and why
+
+Workload: Running a local LLM chatbot
+
+Imagine running a language model locally on a laptop to answer questions and summarise documents.
+
+Useful hardware: GPU
+
+A GPU is useful because:
+
+LLMs perform many matrix and vector operations.
+
+GPUs can perform many calculations in parallel.
+
+GPU memory can hold model weights and intermediate data.
+
+Sufficient memory bandwidth helps supply data to the compute units efficiently.
+
+Role of other hardware:
+
+CPU: Runs the operating system, manages application logic, and coordinates tasks.
+
+GPU: Accelerates the neural network calculations.
+
+NPU: May accelerate supported AI operations efficiently, depending on the laptop, model, and software.
+
+RAM and accelerator memory: Hold the model and the data required for execution.
+
+For a small, quantised model, a CPU may also be sufficient, although generation can be slower. The best hardware depends on model size, memory capacity, performance requirements, and power consumption.
+
+Conclusion
+
+Different types of processors are designed for different tasks. CPUs provide flexible general-purpose processing, GPUs accelerate parallel computations, and NPUs specialise in supported neural network operations.
+
+AI systems need both compute and memory to process data and run models efficiently. Training adjusts model weights, while inference uses those trained weights to produce predictions and responses.

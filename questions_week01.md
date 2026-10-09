@@ -359,3 +359,36 @@ AI systems need both compute and memory to process data and run models efficient
 AI is a capability that can improve the efficiency of Design Verification, but it cannot replace the domain knowledge of a verification engineer. Human expertise is still necessary to determine whether the generated test cases are meaningful and whether the verification results are correct.
 
 **Anchor:** AI is not the domain. AI is a capability applied to the domain.
+
+# Mission 9 — My AI Working Agreement
+
+## Five Rules for Using AI in Engineering Learning
+
+### Rule 1: Make AI Explain Itself, Then Test It
+I will ask AI to explain technical concepts in simple steps and provide examples. I will test its explanations by working through the examples myself, checking reliable documentation, or running simulations when possible.
+
+### Rule 2: Verify AI-Generated Code and Technical Answers
+I will never assume that AI-generated SystemVerilog code, testbenches, or engineering calculations are correct. I will compile the code, run simulations, check expected results, and investigate errors before accepting a solution.
+
+### Rule 3: Protect Confidential and Proprietary Information
+I will not upload confidential company information, proprietary RTL code, chip designs, verification environments, passwords, or unreleased project data to AI tools unless their use is explicitly authorised and complies with the relevant data-handling policies.
+
+### Rule 4: Take Responsibility for My Final Work
+I will use AI as a learning assistant, not as a replacement for my own understanding. I will make sure I can explain, justify, and defend the code, calculations, and technical decisions I submit or use in engineering work.
+
+### Rule 5: Use AI as a Tool, Not as a Substitute for Engineering Knowledge
+I will use AI to help with debugging, generating test scenarios, analysing simulation results, and documenting my work. However, I will rely on my knowledge of digital design, timing, specifications, and verification principles to judge whether its suggestions are appropriate.
+
+## Justification Using Missions 4 and 5
+
+Mission 4 taught me that an AI agent can use external tools and retrieve information to complete multi-step tasks. Mission 5 showed me that AI workloads depend on computing hardware and memory, and that different processors have different capabilities.
+
+These lessons remind me that AI systems have capabilities and limitations. Therefore, I should verify their outputs, understand the tools and processes involved, and use my engineering knowledge before accepting their recommendations.
+
+## Conclusion
+
+My goal is neither to trust AI blindly nor to reject it completely. I will use AI to learn faster, improve productivity, and solve engineering problems while verifying its outputs and remaining responsible for my final work.
+
+**My principle: Understand it, verify it, and take responsibility for it.**
+
+

@@ -289,37 +289,9 @@ Inference: The model uses what it has learned.
 Training often requires more computation and memory per model update. However, large-scale inference can also require substantial hardware, especially when serving many users or generating long responses.
 
 7. Draw a simple picture showing the AI hardware workflow
+  
+<img width="1096" height="1435" alt="image" src="https://github.com/user-attachments/assets/a640f509-ed73-46c7-9ee1-6c1b5a804ed6" />
 
-┌────────────────────────┐
-│     AI Application     │
-│  Chatbot / Image App   │
-└────────────┬───────────┘
-             │
-             ▼
-┌────────────────────────┐
-│        AI Model        │
-│  Neural Network / LLM  │
-└────────────┬───────────┘
-             │
-             ▼
-┌────────────────────────┐
-│   Software / Framework │
-│ PyTorch / TensorFlow   │
-│ Runtime / Drivers      │
-└────────────┬───────────┘
-             │
-             ▼
-┌────────────────────────┐
-│       Compute Unit     │
-│                        │
-│  CPU / GPU / NPU       │
-└────────────┬───────────┘
-             │
-             ▼
-┌────────────────────────┐
-│         Memory         │
-│ Weights / Data / Cache │
-└────────────────────────┘
 
 Explanation
 

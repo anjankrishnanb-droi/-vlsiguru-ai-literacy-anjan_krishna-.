@@ -112,4 +112,9 @@ learn a pattern that predicts whether a situation is dangerous.
   A very large neural network that has learned patterns from enormous amounts of data and generates text by repeatedly predicting what token should come next given the context.
 
 #Mission 5 - Can AI be confidently wrong? 
-
+## Prompt : Can you explain what a loss function is and how it impacts the training of machine learning models?
+## AI answer : What is a loss function?
+#### A loss function tells a machine-learning model how wrong its prediction is.
+    Think of it as a score for the model's mistake.
+    Small loss = good prediction 
+    Large loss = bad prediction

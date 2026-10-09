@@ -119,19 +119,25 @@ learn a pattern that predicts whether a situation is dangerous.
     Small loss = good prediction 
     Large loss = bad prediction
     
-#### Verification Source : https://www.geeksforgeeks.org/deep-learning/loss-functions-in-deep-learning/
+#### Verification Source : 
+https://www.geeksforgeeks.org/deep-learning/loss-functions-in-deep-learning/
 
-#### Result : Answers are matching
-#### Lesson : AI Can make mistakes, but verification of answers are also important.
+#### Result : 
+Answers are matching
+#### Lesson : 
+AI Can make mistakes, but verification of answers are also important.
 
 # Mission 6 - Chatbot or agent?
- ### LLM : An LLM is the language-processing engine that understands your prompt and generates text.
+ ### LLM : 
+ An LLM is the language-processing engine that understands your prompt and generates text.
  <img width="5504" height="3440" alt="image" src="https://github.com/user-attachments/assets/c4a04b5e-c8ac-477c-8f8d-93dc39a82dcd" />
 
- ### AI application : An AI application is a complete software product that uses AI to perform a useful task.
+ ### AI application : 
+ An AI application is a complete software product that uses AI to perform a useful task.
  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7612a404-8830-47c8-919d-960eebb0a8fb" />
 
- ### RAG : RAG allows an LLM to answer questions using information retrieved from external documents or databases.
+ ### RAG :
+ RAG allows an LLM to answer questions using information retrieved from external documents or databases.
 ### Tool-using assistant : A tool-using assistant can call external software or services to perform specific operations instead of only generating text.
 ### AI agent : An AI agent goes beyond answering a single question. It can work toward a goal by planning steps, using tools, observing results, and adjusting its actions.
 <img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/17b60453-2f05-4612-808d-9ac332118cf6" />

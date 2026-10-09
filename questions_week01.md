@@ -107,4 +107,9 @@ learn a pattern that predicts whether a situation is dangerous.
 
 # 4. Make AI explain itself,then test it
   ## AI (chatgpt) answer 1: 
- An LLM takes your prompt, converts it into tokens and numerical representations, processes their relationships using a Transformer, and repeatedly predicts the most appropriate next token until it forms a complete response
+ An LLM takes your prompt, converts it into tokens and numerical representations, processes their relationships using a Transformer, and repeatedly predicts the most appropriate next token until it forms a complete response.
+## Explain to me as a beginner using a simple example?
+  A very large neural network that has learned patterns from enormous amounts of data and generates text by repeatedly predicting what token should come next given the context.
+
+#Mission 5 - Can AI be confidently wrong? 
+

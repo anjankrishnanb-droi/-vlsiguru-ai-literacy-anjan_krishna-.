@@ -342,3 +342,20 @@ Conclusion
 Different types of processors are designed for different tasks. CPUs provide flexible general-purpose processing, GPUs accelerate parallel computations, and NPUs specialise in supported neural network operations.
 
 AI systems need both compute and memory to process data and run models efficiently. Training adjusts model weights, while inference uses those trained weights to produce predictions and responses.
+
+# Mission 8 — Where Could AI Help in My VLSI Track?
+
+## Selected Area: Design Verification (DV)
+
+| Item | Description |
+|---|---|
+| **VLSI Area** | Design Verification (DV) |
+| **Task** | Debugging SystemVerilog testbenches and analysing simulation failures. |
+| **How AI can help** | AI can analyse error messages, suggest possible bugs in SystemVerilog code, generate test scenarios, and help identify the cause of simulation failures. |
+| **Why human knowledge still matters** | A verification engineer must understand the design specification, hardware protocols, timing behaviour, and verification requirements to validate AI suggestions and ensure the design works correctly. |
+
+## Conclusion
+
+AI is a capability that can improve the efficiency of Design Verification, but it cannot replace the domain knowledge of a verification engineer. Human expertise is still necessary to determine whether the generated test cases are meaningful and whether the verification results are correct.
+
+**Anchor:** AI is not the domain. AI is a capability applied to the domain.
